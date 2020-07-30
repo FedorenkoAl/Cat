@@ -1,0 +1,39 @@
+.categories {
+	min-width: 280px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.categories__title {
+	font-size: 24px;
+	line-height: 37px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 22px;
+	margin-left: 10px;
+}
+
+.categories__texte {
+	width: 237px;
+	font-family: "Arial";
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #444444;
+	text-align: left;
+}
+
+.categories__link {
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.categories__slim-wrapper {
+padding: 9px 13px 10px 13px;
+	text-align: center;
+	background-color: rgb(242, 242, 242);
+}
+
