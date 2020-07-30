@@ -393,18 +393,21 @@ a {
 
 @media (min-width: 768px) {
   .nav__list {
+    width: 445px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 0px; }
   .nav__item {
     border: none;
-    padding: 0; }
+    padding: 0;
+    padding-top: 2px; }
   .nav__item:nth-child(3) {
     margin-right: 4px; }
   .nav__item:nth-child(2) {
-    margin-right: 37px; }
+    margin-left: -3px; }
   .nav__item:nth-child(1) {
-    margin-right: 37px; }
+    margin-left: 2px; }
   .nav__link {
     font-size: 18px;
     font-weight: 400; }
@@ -412,7 +415,8 @@ a {
     font-size: 18px;
     font-weight: 400;
     padding: 0;
-    padding-bottom: 7px;
+    padding-top: 2px;
+    padding-bottom: 9px;
     border-bottom: 2px solid #68b738; } }
 
 .food {
