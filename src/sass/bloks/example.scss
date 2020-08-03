@@ -1,15 +1,17 @@
 .example__container {
-	min-width: 320px;
+	min-width: 280px;
+	padding: 0 20px;
 	margin: 0 auto;
-	background-color: #f2f2f2;
+	
 	padding-top: 20px;
 
 }
 
 .example {
-	min-width: 280px;
-	padding: 0 20px;
+	min-width: 320px;
+	
 	margin: 0 auto;
+	background-color: #f2f2f2;
 }
 
 .example__title {
@@ -95,5 +97,80 @@
 .example__wrapper {
 	display: flex;
 	justify-content: space-between;
+}
+
+.example__img-wrapper {
+	margin-top: 40px;
+}
+
+.example__wrapper-scale {
+	margin-top: 31px;
+
+	display: flex;
+	
+	align-items: center;
+	background-color: #f2f2f2;
+}
+
+.example__title-scale {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.example__scale {
+	width: 80px;
+	height: 12px;
+	border: 1px solid #cdcdcd;
+	border-radius: 10px;
+}
+
+.example__title-scale--before {
+	position: relative;
+	padding-left: 62px;
+	padding-right: 20px;
+}
+
+.example__title-scale--before::after {
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 6px;
+	background-image: url("/image/before-after scale.png");
+	top: 7px;
+	left: 125px;
+}
+
+.example__title-scale--after::before {
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 6px;
+	background-image: url("/image/before-after scale.png");
+	top: 7px;
+	left: -40px;
+
+}
+
+.example__title-scale--after {
+	position: relative;
+	padding-left: 18px;
+}
+
+.example__img-wrapper--after {
+	text-align: center;
+	display: none;
+}
+
+#befor:checked ~ .example__img-wrapper--before,
+#after:checked ~ .example__img-wrapper--after {
+	display: block;
+}
+
+#after:checked ~ .example__img-wrapper--before,
+#befor:checked ~ .example__wrapper-scale > .example__title-scale--after::before,
+#after:checked ~ .example__wrapper-scale > .example__title-scale--before::after {
+	display: none;
 }
 
