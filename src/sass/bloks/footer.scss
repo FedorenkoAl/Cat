@@ -1,0 +1,22 @@
+.footer {
+	min-width: 280px;
+	padding: 0 20px;
+	background-color: #f2f2f2;
+}
+
+.footer__footer-logo-wrapper {
+	text-align: center;
+	margin-bottom: 27px;
+}
+
+.footer__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #d9d9d9;
+	padding: 22px 0px 0 0;
+}
+
+.footer__item{
+	outline: 1px solid red;
+}

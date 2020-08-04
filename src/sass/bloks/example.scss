@@ -101,14 +101,20 @@
 
 .example__img-wrapper {
 	margin-top: 40px;
+	text-align: center;
+}
+
+.example__img {
+	margin-left: -12px;
 }
 
 .example__wrapper-scale {
 	margin-top: 31px;
-
-	display: flex;
 	
+	display: flex;
+	padding-bottom: 34px;
 	align-items: center;
+	justify-content: center;
 	background-color: #f2f2f2;
 }
 
@@ -128,7 +134,7 @@
 
 .example__title-scale--before {
 	position: relative;
-	padding-left: 62px;
+	padding-left: 2px;
 	padding-right: 20px;
 }
 
@@ -139,7 +145,7 @@
 	height: 6px;
 	background-image: url("/image/before-after scale.png");
 	top: 7px;
-	left: 125px;
+	left: 65px;
 }
 
 .example__title-scale--after::before {
