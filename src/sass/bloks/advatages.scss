@@ -1,9 +1,10 @@
 .advatages {
-	width: 280px;
+	min-width: 280px;
 	margin: 0 auto;
 	margin-top: 20px;
 	padding: 0 20px;
-		padding-bottom: 20px;
+	padding-bottom: 20px;
+
 }
 
 .advatages__title {
@@ -16,7 +17,7 @@
 
 .advatages__texte {
 	position: relative;
-	min-width: 200px;
+	width: 200px;
 	font-family: "Arial";
 	font-size: 14px;
 	line-height: 18px;
@@ -27,8 +28,12 @@
 		margin-bottom: 26px;
 }
 
+.advatages__texte-table {
+	display: none;
+}
 
-.advatages__texte:nth-child(2)::before {
+
+.advatages__wrapper-texte-top .advatages__texte:nth-child(1)::before {
 	content: "";
 	position: absolute;
 	width: 26px;
@@ -39,29 +44,30 @@
 	top: 13px;
 }
 
-.advatages__texte:nth-child(3)::before {
+.advatages__wrapper-texte-top .advatages__texte:nth-child(2)::before {
 	content: "";
 	position: absolute;
-	width: 26px;
-	height: 29px;
+	width: 29px;
+	height: 31px;
 	background-image: url("../../image/andvantage-2.png");
 	z-index: 9;
 	left: 15px;
 	top: 13px;
 }
 
-.advatages__texte:nth-child(4)::before {
+.advatages__wrapper-texte-botton .advatages__texte:nth-child(1)::before {
 	content: "";
 	position: absolute;
 	width: 26px;
 	height: 29px;
 	background-image: url("../../image/advantage-3.png");
+	 background-repeat: no-repeat;
 	z-index: 9;
 	left: 15px;
 	top: 13px;
 }
 
-.advatages__texte:nth-child(5)::before {
+.advatages__wrapper-texte-botton .advatages__texte:nth-child(2)::before {
 	content: "";
 	position: absolute;
 	width: 26px;
@@ -79,5 +85,154 @@
 	height: 59px;
 	background-color: rgb(104, 183, 56);
 	top: -1px;
-	left: -1px;
+	left: 0px;
+}
+
+@media (min-width: 768px) {
+
+	.advatages {
+	min-width: 708px;
+	padding: 0 30px;
+	}
+
+	.advatages__wrapper-texte {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.advatages__wrapper-texte-top {
+		position: relative;
+		display: flex;
+	margin-bottom: 218px;
+	}
+
+	.advatages__wrapper-texte-botton {
+		position: relative;
+		display: flex;
+	}
+	
+	.advatages__title {
+		margin-top: 50px;
+		margin-left: 1px;
+	margin-bottom: 181px;
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	.advatages__texte {
+		width: 209px;
+		font-size: 16px;
+		line-height: 24px;
+		padding: 0px 0px 0 0px;
+	}
+
+	.advatages__texte-table {
+		position: relative;
+		width: 245px;
+		display: block;
+			font-family: "Arial";
+			font-size: 16px;
+		line-height: 24px;
+		padding: 0px 0px 0 0px;
+	}
+
+.advatages__wrapper-texte-botton	.advatages__texte:nth-child(2) {
+		display: none;
+	}
+
+	.advatages__wrapper-texte-top .advatages__texte:nth-child(1) {
+		margin-right: 175px;
+	}
+
+.advatages__wrapper-texte-top	.advatages__texte:nth-child(2) {
+		width: 231px;
+}
+
+.advatages__wrapper-texte-botton	.advatages__texte:nth-child(1) {
+	margin-right: 174px;
+}
+
+.advatages__wrapper-texte-top .advatages__texte:nth-child(1)::before {
+	top: -88px;
+	left: 25px;
+}
+
+.advatages__wrapper-texte-top .advatages__texte:nth-child(2)::before {
+	top: -88px;
+	left: 25px;
+}
+
+.advatages__wrapper-texte-botton .advatages__texte:nth-child(1)::before {
+	top: -88px;
+	left: 28px;
+}
+
+.advatages__texte::after {
+		width: 80px;
+		height: 80px;
+		top: -113px;
+	}
+
+	.advatages__wrapper-texte-botton .advatages__texte-table::after {
+		content: "";
+		position: absolute;
+		width: 80px;
+		height: 80px;
+		top: -113px;
+		left: 0;
+		background-color: rgb(104, 183, 56);
+	}
+
+	.advatages__wrapper-texte-botton .advatages__texte-table::before {
+		content: "";
+		position: absolute;
+		width: 26px;
+		height: 29px;
+		z-index: 9;
+		background-image: url("../../image/advantage-4.png");
+		top: -86px;
+		left: 27px;
+	}
+
+	.advatages__wrapper-texte-top::before {
+		content: "1";
+		position: absolute;
+		font-size: 281px;
+		line-height: 281px;
+		color: #f2f2f2;
+		top: -140px;
+		left: 106px;
+	}
+
+	.advatages__wrapper-texte-top::after {
+		content: "2";
+		position: absolute;
+		font-size: 281px;
+		line-height: 281px;
+		color: #f2f2f2;
+		top: -140px;
+		left: 492px;
+		z-index: -1;
+	}
+
+	.advatages__wrapper-texte-botton::before {
+		content: "3";
+		position: absolute;
+		font-size: 281px;
+		line-height: 281px;
+		color: #f2f2f2;
+		top: -140px;
+		left: 116px;
+	}
+
+	.advatages__wrapper-texte-botton::after {
+		content: "4";
+		position: absolute;
+		font-size: 281px;
+		line-height: 281px;
+		color: #f2f2f2;
+		top: -140px;
+		left: 499px;
+		z-index: -1;
+	}
 }
