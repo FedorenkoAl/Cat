@@ -1004,7 +1004,7 @@ a {
 
 .example__title-scale--after {
   position: relative;
-  padding-left: 18px; }
+  padding-left: 23px; }
 
 .example__img-wrapper--after {
   text-align: center;
@@ -1090,9 +1090,9 @@ a {
     margin-top: -390px; }
   .example__img-table {
     display: block;
-    margin-left: 31px; }
+    margin-left: 1px; }
   .example__img-wrapper {
-    margin-top: 60px; }
+    margin-top: 30px; }
   .example__title-scale {
     font-size: 20px; }
   .example__scale {
@@ -1100,18 +1100,24 @@ a {
     height: 6px;
     border: none;
     background-color: #dcdcdc; }
+  .example__scale-label {
+    font-size: 0px; }
   .example__img-wrapper--after {
     text-align: center;
     display: block; }
   .example__img-wrapper--after .example__img-table {
     margin-left: 0;
     margin-top: 8px; }
+  .example__slaider-indexe {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   #after-index:checked ~ .example__img-wrapper-container > .example__img-wrapper--after .example__img-table,
   #after:checked ~ .example__img-wrapper-container > .example__img-wrapper--after .example__img-table {
     margin-left: 380px; }
   .example__img-wrapper-container {
     display: flex; }
-  .example__wrapper-scale-index::after {
+  .example__scale-label::after {
     content: "";
     position: absolute;
     width: 30px;
@@ -1120,8 +1126,9 @@ a {
     border: 1px solid #dcdcdc;
     border-radius: 50%;
     left: 367px;
+    top: -5px;
     z-index: 9; }
-  .example__wrapper-scale-index::before {
+  .example__scale-label::before {
     content: "";
     position: absolute;
     width: 8px;
@@ -1134,7 +1141,9 @@ a {
   #befor-index:checked ~ .example__img-wrapper-container > .example__img-wrapper--after {
     display: none; }
   #after-index:checked ~ .example__img-wrapper-container > .example__img-wrapper--before {
-    display: none; } }
+    display: none; }
+  #befor-index:checked ~ .example__img-wrapper-container > .example__img-wrapper--before {
+    margin-right: 356px; } }
 
 .contacts {
   margin-top: 30px; }

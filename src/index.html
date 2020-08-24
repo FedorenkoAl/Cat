@@ -63,15 +63,15 @@
 				<h3 class="advatages__title">Как это работает</h3>
 				<div class="advatages__wrapper-texte">
 					<div class="advatages__wrapper-texte-top">
-				<p class="advatages__texte">Функциональное питание содержит только полезные питательные вещества.</p>
-				<p class="advatages__texte">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
-			</div>
-				<div class="advatages__wrapper-texte-botton">
-				<p class="advatages__texte">Замените один-два приема обычной еды на наше функциональное питание.</p>
-				<p class="advatages__texte">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца</p>
-				<p class="advatages__texte-table">Уже через месяц наслаждайтесь изменениями к лучшему<br> вашего питомца</p>
-			</div>
-			</div>
+						<p class="advatages__texte">Функциональное питание содержит только полезные питательные вещества.</p>
+						<p class="advatages__texte">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
+					</div>
+					<div class="advatages__wrapper-texte-botton">
+						<p class="advatages__texte">Замените один-два приема обычной еды на наше функциональное питание.</p>
+						<p class="advatages__texte">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца</p>
+						<p class="advatages__texte-table">Уже через месяц наслаждайтесь изменениями к лучшему<br> вашего питомца</p>
+					</div>
+				</div>
 			</section>
 			<section class="example">
 				<div class="example__container">
@@ -90,29 +90,42 @@
 					</div>
 					<p class="example__cost">Затраты на питание: 15 000 руб.</p>
 				</div>
-				<input class="visually-hidden" type="radio" name="scale" id="befor" checked>
-				<input class="visually-hidden" type="radio" name="scale" id="after">
-				<input class="visually-hidden-index" type="radio" name="scale" id="befor-index">
-				<input class="visually-hidden-index" type="radio" name="scale" id="after-index">
-				<div class="example__img-wrapper-container">
-				<div class="example__img-wrapper example__img-wrapper--before">
-					<img class="example__img" src="image/before-mobile.png" width="311" height="232" alt="">
-					<img class="example__img-table" src="image/before-desktop.png" width="354" height="620" alt="">
+				<div class="example__slaider">
+					<input class="visually-hidden" type="radio" name="scale" id="befor" checked>
+					<input class="visually-hidden" type="radio" name="scale" id="after">
+					<div class="example__img-wrapper-container">
+						<div class="example__img-wrapper example__img-wrapper--before">
+							<img class="example__img" src="image/before-mobile.png" width="311" height="232" alt="">
+						</div>
+						<div class="example__img-wrapper example__img-wrapper--after">
+							<img class="example__img" src="image/after-mobile.png" width="251" height="240" alt="">
+						</div>
+					</div>
+					<div class="example__wrapper-scale">
+						<label class="example__title-scale example__title-scale--before" for="befor">Было</label>
+						<div class="example__scale"></div>
+						<label class="example__title-scale example__title-scale--after" for="after">Стало</label>
+					</div>
 				</div>
-				<div class="example__img-wrapper example__img-wrapper--after">
-					<img class="example__img" src="image/after-mobile.png" width="251" height="240" alt="">
-					<img class="example__img-table" src="image/after-desktop.png" width="354" height="607" alt="">
-				</div>
-			</div>
-				<div class="example__wrapper-scale">
-					<label class="example__title-scale example__title-scale--before" for="befor">Было</label>
-					<div class="example__scale"></div>
-					<label class="example__title-scale example__title-scale--after" for="after">Стало</label>
-				</div>
-				<div class="example__wrapper-scale-index">
-					<label class="example__title-scale example__title-scale--before" for="befor-index">Было</label>
-					<div class="example__scale"></div>
-					<label class="example__title-scale example__title-scale--after" for="after-index">Стало</label>
+				<div class="example__slaider-indexe">
+					<input class="visually-hidden-index" type="radio" name="scale" id="befor-index">
+					<input class="visually-hidden-index" type="radio" name="scale" id="after-index">
+					<input class="visually-hidden-index" type="radio" name="scale" id="center-index">
+					<div class="example__img-wrapper-container">
+						<div class="example__img-wrapper example__img-wrapper--before">
+							<img class="example__img-table" src="image/before-desktop.png" width="354" height="620" alt="">
+						</div>
+						<div class="example__img-wrapper example__img-wrapper--after">
+							<img class="example__img-table" src="image/after-desktop.png" width="354" height="607" alt="">
+						</div>
+					</div>
+					<div class="example__wrapper-scale-index">
+						<label class="example__title-scale example__title-scale--before" for="befor-index">Было</label>
+						<div class="example__scale">
+							<label class="example__scale-label" for="center-index">Центр</label>
+						</div>
+						<label class="example__title-scale example__title-scale--after" for="after-index">Стало</label>
+					</div>
 				</div>
 				<div class="example__none"></div>
 			</section>
@@ -132,23 +145,23 @@
 			<div class="footer__footer-logo-wrapper">
 				<a href=""><img src="image/footer-logo.svg.png" width="128" height="24" halt=""></a>
 			</div>
-				<ul class="footer__list">
-					<li class="footer__item">
-						<a href="" class="footer__con">
-							<img src="image/m-vk.svg.png" width="" height="" halt="">
-						</a>
-					</li>
-					<li class="footer__item">
-						<a href=""><img src="image/m-insta.svg.png" width="" height="" halt=""></a>
-					</li>
-					<li class="footer__item">
-						<a href=""><img src="image/m-fb.svg.png" width="" height="" halt=""></a>
-					</li>
-				</ul>
-				<p class="footer__copyright">HTML Academy</p>
-				<p>
-					<img src="image/htmlacademy.svg" width="" height="" halt="">
-				</p>
-			</footer>
-		</body>
-	</html>
+			<ul class="footer__list">
+				<li class="footer__item">
+					<a href="" class="footer__con">
+						<img src="image/m-vk.svg.png" width="" height="" halt="">
+					</a>
+				</li>
+				<li class="footer__item">
+					<a href=""><img src="image/m-insta.svg.png" width="" height="" halt=""></a>
+				</li>
+				<li class="footer__item">
+					<a href=""><img src="image/m-fb.svg.png" width="" height="" halt=""></a>
+				</li>
+			</ul>
+			<p class="footer__copyright">HTML Academy</p>
+			<p>
+				<img src="image/htmlacademy.svg" width="" height="" halt="">
+			</p>
+		</footer>
+	</body>
+</html>
