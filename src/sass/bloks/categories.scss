@@ -20,7 +20,7 @@
 	position: absolute;
 	width: 35px;
 	height: 49px;
-	background-image: url("/image/cat-smal.png");
+	background-image: url("../image/cat-smal.png");
 	top: -8px;
 	left: 1px;
 	z-index: 9;
@@ -42,7 +42,7 @@
 	position: absolute;
 	width: 67px;
 	height: 28px;
-	background-image: url("/image/cat-w.png");
+	background-image: url("../image/cat-w.png");
 	top: 3px;
 	left: -42px;
 	z-index: 9;
@@ -92,7 +92,7 @@
 	position: absolute;
 	width: 24px;
 	height: 11px;
-	background-image: url("/image/right-arrow-long.svg.png");
+	background-image: url("../image/right-arrow-long.svg.png");
 	top: 5px;
 	left: 97px;
 }
@@ -173,7 +173,7 @@
 	
 	width: 140px;
 	height: 194px;
-	background-image: url("/image/cat-slim.png");
+	background-image: url("../image/cat-slim.png");
 	background-repeat: no-repeat;
 	top: 2px;
 	left: 422px;
@@ -192,7 +192,7 @@
 .categories__title--weight::before {
 	width: 268px;
 	height: 112px;
-	background-image: url("/image/cat-pro.png");
+	background-image: url("../image/cat-pro.png");
 	top: 57px;
 	left: 358px;
 	z-index: 9;

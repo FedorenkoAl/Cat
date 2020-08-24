@@ -13,8 +13,8 @@
   padding-top: 23px;
    padding-bottom: 300px;
 
- background-image: url('/image/index-can-mobile.png'), 
-  url('/image/index-background-mobile.png');
+ background-image: url('../image/index-can-mobile.png'), 
+  url('../image/index-background-mobile.png');
   background-repeat: no-repeat, no-repeat;
   background-position: center 170px, center 0px;
   background-size: 280px 270px, 320px 305px;
@@ -73,7 +73,7 @@
 @media (min-width: 768px) {
 	.food__wrapper {
 		position: relative;
-		background-image: url('/image/index-can-tablet.jpg');
+		background-image: url('../image/index-can-tablet.jpg');
 		
 		 background-repeat: no-repeat;
 		 background-position: center 255px;

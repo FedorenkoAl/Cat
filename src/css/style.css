@@ -342,7 +342,7 @@ a {
   margin-bottom: 0px;
   border: none;
   background-color: #fff;
-  background-image: url("../../image/close.svg");
+  background-image: url("../image/close.svg");
   background-repeat: no-repeat;
   background-position: 2px -1px; }
 
@@ -433,7 +433,7 @@ a {
   margin: 0 auto;
   padding-top: 23px;
   padding-bottom: 300px;
-  background-image: url("/image/index-can-mobile.png"), url("/image/index-background-mobile.png");
+  background-image: url("../image/index-can-mobile.png"), url("../image/index-background-mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-position: center 170px, center 0px;
   background-size: 280px 270px, 320px 305px; }
@@ -476,7 +476,7 @@ a {
 @media (min-width: 768px) {
   .food__wrapper {
     position: relative;
-    background-image: url("/image/index-can-tablet.jpg");
+    background-image: url("../image/index-can-tablet.jpg");
     background-repeat: no-repeat;
     background-position: center 255px;
     background-size: 709px 609px;
@@ -528,7 +528,7 @@ a {
   position: absolute;
   width: 35px;
   height: 49px;
-  background-image: url("/image/cat-smal.png");
+  background-image: url("../image/cat-smal.png");
   top: -8px;
   left: 1px;
   z-index: 9; }
@@ -548,7 +548,7 @@ a {
   position: absolute;
   width: 67px;
   height: 28px;
-  background-image: url("/image/cat-w.png");
+  background-image: url("../image/cat-w.png");
   top: 3px;
   left: -42px;
   z-index: 9; }
@@ -591,7 +591,7 @@ a {
   position: absolute;
   width: 24px;
   height: 11px;
-  background-image: url("/image/right-arrow-long.svg.png");
+  background-image: url("../image/right-arrow-long.svg.png");
   top: 5px;
   left: 97px; }
 
@@ -648,7 +648,7 @@ a {
   .categories__title--smal::before {
     width: 140px;
     height: 194px;
-    background-image: url("/image/cat-slim.png");
+    background-image: url("../image/cat-slim.png");
     background-repeat: no-repeat;
     top: 2px;
     left: 422px;
@@ -663,7 +663,7 @@ a {
   .categories__title--weight::before {
     width: 268px;
     height: 112px;
-    background-image: url("../../image/cat-pro.png");
+    background-image: url("../image/cat-pro.png");
     top: 57px;
     left: 358px;
     z-index: 9; }
@@ -714,7 +714,7 @@ a {
   position: absolute;
   width: 26px;
   height: 29px;
-  background-image: url("../../image/advantage-1.png");
+  background-image: url("../image/advantage-1.png");
   z-index: 9;
   left: 15px;
   top: 13px; }
@@ -724,7 +724,7 @@ a {
   position: absolute;
   width: 29px;
   height: 31px;
-  background-image: url("../../image/andvantage-2.png");
+  background-image: url("../image/andvantage-2.png");
   z-index: 9;
   left: 15px;
   top: 13px; }
@@ -734,7 +734,7 @@ a {
   position: absolute;
   width: 26px;
   height: 29px;
-  background-image: url("../../image/advantage-3.png");
+  background-image: url("../image/advantage-3.png");
   background-repeat: no-repeat;
   z-index: 9;
   left: 15px;
@@ -745,7 +745,7 @@ a {
   position: absolute;
   width: 26px;
   height: 29px;
-  background-image: url("../../image/advantage-4.png");
+  background-image: url("../image/advantage-4.png");
   z-index: 9;
   left: 15px;
   top: 13px; }
@@ -765,14 +765,17 @@ a {
     padding: 0 30px; }
   .advatages__wrapper-texte {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap; }
   .advatages__wrapper-texte-top {
     position: relative;
     display: flex;
+    padding-right: 92px;
     margin-bottom: 218px; }
   .advatages__wrapper-texte-botton {
     position: relative;
-    display: flex; }
+    display: flex;
+    padding-right: 80px; }
   .advatages__title {
     margin-top: 50px;
     margin-left: 1px;
@@ -797,9 +800,10 @@ a {
   .advatages__wrapper-texte-top .advatages__texte:nth-child(1) {
     margin-right: 175px; }
   .advatages__wrapper-texte-top .advatages__texte:nth-child(2) {
-    width: 231px; }
+    width: 231px;
+    margin-left: 0px; }
   .advatages__wrapper-texte-botton .advatages__texte:nth-child(1) {
-    margin-right: 174px; }
+    margin-right: 175px; }
   .advatages__wrapper-texte-top .advatages__texte:nth-child(1)::before {
     top: -88px;
     left: 25px; }
@@ -827,7 +831,7 @@ a {
     width: 26px;
     height: 29px;
     z-index: 9;
-    background-image: url("../../image/advantage-4.png");
+    background-image: url("../image/advantage-4.png");
     top: -86px;
     left: 27px; }
   .advatages__wrapper-texte-top::before {
@@ -989,7 +993,7 @@ a {
   position: absolute;
   width: 35px;
   height: 6px;
-  background-image: url("/image/before-after scale.png");
+  background-image: url("../image/before-after scale.png");
   top: 7px;
   left: 65px; }
 
@@ -998,7 +1002,7 @@ a {
   position: absolute;
   width: 35px;
   height: 6px;
-  background-image: url("/image/before-after scale.png");
+  background-image: url("../image/before-after scale.png");
   top: 7px;
   left: -40px; }
 
@@ -1174,7 +1178,7 @@ a {
   height: 400px;
   margin: 0 auto;
   margin-top: 27px;
-  background-image: url("../../image/map.jpg"); }
+  background-image: url("/image/map.jpg"); }
 
 .footer {
   min-width: 280px;
